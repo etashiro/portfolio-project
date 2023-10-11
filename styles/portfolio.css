@@ -1,18 +1,51 @@
-h1 {
-  font-family: "Montserrat";
+:root {
+  --heading-font-family: "Roboto", serif;
+  --default-font-family: "Montserrat", serif;
 }
 
-h2 {
+h1,
+h3 {
   font-family: "Roboto", serif;
-  font-weight: 500;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 h3 {
-  font-family: "Roboto", serif;
-  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
 }
 
-p {
+h1 {
+  font-size: 72px;
+  margin-bottom: 25px;
+}
+
+.hero {
+  background-image: url("/images/hero-bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 200px 0;
+}
+
+.hero p {
   font-family: "Roboto", serif;
-  font-weight: 400;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.btn-branding {
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 14px 30px 14px 30px;
 }
