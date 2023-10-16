@@ -118,6 +118,11 @@ p {
     margin-bottom: 5px;
   }
 
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   h3 {
     font-size: 20px;
     margin-bottom: 5px;
@@ -125,7 +130,11 @@ p {
 
   p {
     font-size: 12px;
-    line-height: 12px;
+    line-height: 18px;
+  }
+
+  img {
+    max-width: 80%;
   }
 
   .btn-branding {
@@ -133,12 +142,13 @@ p {
     padding: 10px 15px 10px 15px;
   }
 
-  .hero {
+  .hero,
+  .about-me {
     padding: 30px;
   }
 
-  img {
-    max-width: 80%;
+  .about-me {
+    text-align: center;
   }
 }
 
