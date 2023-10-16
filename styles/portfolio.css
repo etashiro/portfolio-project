@@ -1,10 +1,11 @@
 :root {
   --heading-font-family: "Roboto", serif;
   --default-font-family: "Montserrat", serif;
+  --heading-color: #f65282;
 }
 
 body {
-  background-color: black;
+  background-color: #212121;
 }
 
 h1,
@@ -13,6 +14,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
+  color: white;
 }
 
 h1 {
@@ -20,13 +22,28 @@ h1 {
   margin-bottom: 25px;
 }
 
+h2 {
+  font-size: 18px;
+  color: var(--heading-color);
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
 h3 {
   font-size: 24px;
   margin-bottom: 25px;
 }
 
+p {
+  color: white;
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .hero {
-  background-image: url("/images/hero-bg.png");
+  background-image: url("/images/headshot.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,16 +52,16 @@ h3 {
   padding: 200px 0px;
 }
 
-.hero:hover {
-  filter: none;
-  transform: all 150ms ease-in-out;
+.about-me h1 {
+  font-size: 64px;
 }
 
-.hero p {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+.about-me {
+  padding: 140px 0px;
+}
+
+.about-paragraph {
+  margin-top: 34px;
 }
 
 .btn-branding {
@@ -71,6 +88,28 @@ h3 {
 
 .row-four {
   margin-bottom: 100px;
+}
+
+.fa-brands {
+  margin: 10px;
+}
+
+.social-links {
+  margin-bottom: 35px;
+}
+
+.camera-info {
+  background-color: #2d2727;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.camera-spec {
+  margin: 25px 20px 25px 30px;
+}
+
+.camera-image {
+  margin: 20px 0px 20px 20px;
 }
 
 @media (max-width: 900px) {
