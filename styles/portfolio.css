@@ -56,6 +56,10 @@ p {
   margin: auto;
 }
 
+.contact-info {
+  margin-top: 142px;
+}
+
 .about-me h1 {
   font-size: 64px;
 }
@@ -114,6 +118,10 @@ p {
 
 .camera-image {
   margin: 20px 0px 20px 20px;
+}
+
+.contact-info a {
+  color: white;
 }
 
 @media (max-width: 900px) {
