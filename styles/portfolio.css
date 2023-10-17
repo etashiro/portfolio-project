@@ -52,6 +52,10 @@ p {
   padding: 200px 0px;
 }
 
+.gallery {
+  margin: auto;
+}
+
 .about-me h1 {
   font-size: 64px;
 }
