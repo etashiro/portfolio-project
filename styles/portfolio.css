@@ -6,6 +6,7 @@
 
 body {
   background-color: #212121;
+  max-width: 100%;
 }
 
 h1,
@@ -42,6 +43,14 @@ p {
   line-height: 30px;
 }
 
+.bg-dark {
+  background-color: #212121;
+}
+
+.logo {
+  max-height: 25px;
+}
+
 .hero {
   background-image: url("/images/headshot.png");
   background-size: 100%;
@@ -50,10 +59,6 @@ p {
   text-align: center;
   color: white;
   padding: 200px 0px;
-}
-
-.gallery {
-  margin: auto;
 }
 
 .contact-info {
@@ -86,12 +91,14 @@ p {
 
 .row-one {
   margin-top: 100px;
+  max-width: 1152px;
 }
 
 .row-two,
 .row-three,
 .row-four {
   margin-top: 40px;
+  max-width: 1152px;
 }
 
 .row-four {
@@ -145,10 +152,6 @@ p {
     line-height: 18px;
   }
 
-  img {
-    max-width: 80%;
-  }
-
   .btn-branding {
     font-size: 12px;
     padding: 10px 15px 10px 15px;
@@ -165,5 +168,5 @@ p {
 }
 
 .mobile-images {
-  margin: 0px 30px;
+  margin: 0px 30px 30px 30px;
 }
