@@ -133,6 +133,15 @@ p {
   color: white;
 }
 
+footer {
+  background-color: #212121;
+  padding: 15px;
+}
+
+footer a {
+  margin: 10px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 36px;
@@ -166,6 +175,20 @@ p {
 
   .about-me {
     text-align: center;
+  }
+
+  footer a {
+    margin: 2px;
+  }
+
+  footer .copyright {
+    font-size: 10px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  footer .social-links {
+    margin: 0px;
   }
 }
 
