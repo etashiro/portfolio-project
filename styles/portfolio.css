@@ -4,9 +4,12 @@
   --heading-color: #f65282;
 }
 
-body {
+.header {
   background-color: #212121;
-  max-width: 100%;
+}
+
+body {
+  background-color: #1b1b1b;
 }
 
 h1,
@@ -19,7 +22,7 @@ h3 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 64px;
   margin-bottom: 25px;
 }
 
@@ -41,10 +44,6 @@ p {
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-}
-
-.bg-dark {
-  background-color: #212121;
 }
 
 .logo {
@@ -89,20 +88,23 @@ p {
   margin-top: 15px;
 }
 
+.image-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .row-one {
-  margin-top: 100px;
+  display: inline-block;
+  margin: 100px auto 0px;
   max-width: 1152px;
 }
 
 .row-two,
 .row-three,
 .row-four {
-  margin-top: 40px;
+  display: inline-block;
+  margin: 40px auto 0px;
   max-width: 1152px;
-}
-
-.row-four {
-  margin-bottom: 100px;
 }
 
 .fa-brands {
